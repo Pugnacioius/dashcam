@@ -95,7 +95,7 @@ def knotsToMPH(speed):
     '''
         Converts knots to miles per hour.
     '''
-    return speed * 1.15
+    return float(speed) * 1.15
 
 def createFilenames(recording_path, logging_path):
     '''
